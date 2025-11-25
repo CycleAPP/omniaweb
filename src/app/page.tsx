@@ -46,7 +46,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/Accordion";
-import teamPhoto from "./WhatsApp Image 2025-11-24 at 1.10.16 AM.jpeg";
+import teamPhoto from "./team-photo.jpeg";
 import adrianaPhoto from "./adriana.jpeg";
 
 const threatData = [
