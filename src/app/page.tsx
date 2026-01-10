@@ -47,6 +47,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/Accordion";
 import teamPhoto from "./team-photo.jpeg";
+import josePhoto from "./jose-photo.jpeg";
 import adrianaPhoto from "./adriana.jpeg";
 
 const threatData = [
@@ -567,9 +568,13 @@ export default function Home() {
           <div className="grid gap-4 md:grid-cols-2">
             <div className="space-y-3 rounded-2xl border border-white/10 bg-white/5 p-4">
               <div className="mx-auto h-48 w-36 overflow-hidden rounded-full border border-white/10 bg-white/5 md:h-52 md:w-44">
-                <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-[var(--accent)]/20 via-white/10 to-[var(--accent-strong)]/20 text-sm text-zinc-200">
-                  Foto próxima
-                </div>
+                <Image
+                  src={josePhoto}
+                  alt="Jose Manuel Garcia, Director Comercial"
+                  className="h-full w-full object-cover"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  priority
+                />
               </div>
               <div className="space-y-1 text-center">
                 <p className="text-xs uppercase tracking-[0.2em] text-[var(--accent)]">
