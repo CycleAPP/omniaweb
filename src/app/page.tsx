@@ -46,7 +46,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/Accordion";
-import teamPhoto from "./team-photo.jpeg";
+import teamPhoto from "./new-team-photo.jpeg";
 import adrianaPhoto from "./adriana.jpeg";
 
 const threatData = [
